@@ -1,6 +1,7 @@
 import Sidebar from "./components/Sidebar";
 import Docs from "./components/Docs";
 import Guide from "./components/Guide";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Sidebar author="Johnmark C Tanaleon" />
       <Docs />
       <Guide />
+      <Feedback />
     </div>
   );
 }
